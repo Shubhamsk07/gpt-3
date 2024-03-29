@@ -11,19 +11,19 @@ export default function Companies() {
     return (
         <div className="Companies">
             <div>
-                <img src={Google} alt="google-image" />
+                <img src={Google} alt="google" />
             </div>
             <div>
-                <img src={Slack} alt="slack-image" />
+                <img src={Slack} alt="slack" />
             </div>
             <div>
-                <img src={Atlassian} alt="atlassian-image" />
+                <img src={Atlassian} alt="atlassian" />
             </div>
             <div>
-                <img src={Dropbox} alt="dropbox-image" />
+                <img src={Dropbox} alt="dropbox" />
             </div>
             <div>
-                <img src={Shopify} alt="Shopify-image" />
+                <img src={Shopify} alt="Shopify" />
             </div>
 
         </div>
