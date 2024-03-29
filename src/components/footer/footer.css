@@ -1,0 +1,118 @@
+.footer{
+    background: #031b34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.footer-heading h3{
+    font-family: var(--font-family);
+font-size: 62px;
+font-weight: 800;
+line-height: 75px;
+letter-spacing: -0.04em;
+text-align: center;
+margin-bottom: 3rem;
+max-width: 700px;
+
+}
+.footer-button button{
+
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-family: Manrope, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    background: #fff;
+    color: black;
+    margin-bottom: 6rem;
+   
+
+}
+.footer-button button:hover{
+    
+    outline: none;
+    background: #ff4820;
+    color: #fff;
+    transition: all .2s ease-out;
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-content div{
+    width: 200px;
+}
+.footer-content__gpt-3 img{
+    margin-top: 1rem;
+    height: 20px;
+    margin-bottom: 1rem;
+}
+
+.footer-content__gpt-3 p{
+    font-family: var(--font-family);
+font-size: 12px;
+line-height: 14.06px;
+text-align: left;
+color: #FFFFFF;
+
+
+
+}
+
+.footer-content h3{
+    margin-top: 1rem;
+    font-family: var(--font-family);
+font-size: 14px;
+line-height: 16.41px;
+text-align: left;
+color:white;
+margin-bottom: 1rem;
+cursor: pointer;
+width: fit-content;
+}
+
+.footer-content p{
+    font-family: var(--font-family);
+font-size: 12px;
+line-height: 14.06px;
+text-align: left;
+color: white;
+padding-top:10px;
+padding-bottom: 14px;
+cursor: pointer;
+width: fit-content;
+}
+.copyright p{
+    position: relative;
+    top:29px;
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: center;
+    color: white;
+    padding-top:50px;
+    margin-bottom: 0;
+}
+@media screen and (max-width: 767px){
+    .footer-heading h3 {
+    font-size: 2.5rem;
+    line-height: 50px;
+    
+}
+.footer-content div:not(:last-child){
+margin-bottom: 2rem;
+}
+
+}

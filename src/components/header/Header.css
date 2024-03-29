@@ -1,0 +1,188 @@
+.header {
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 6rem;
+    padding-bottom: 0px;
+}
+
+.header-content {
+    margin-top: 75px;
+    font-family: var(--font-family);
+    flex: 1.2;
+    display: flex;
+    gap: 33px;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.header-content>h1 {
+
+    font-size: 62px;
+    line-height: 75px;
+    font-weight: bold;
+
+}
+
+.header-content p {
+    font-size: 18px;
+    max-width: 480px;
+    color: white;
+
+    font-weight: lighter;
+}
+
+.header-content-started {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.header-content-started input {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 100;
+    min-height: 50px;
+    border-radius: 6px 0 0 6px;
+    background-color: #052D56;
+    font-family: Manrope;
+    font-size: 20px;
+    line-height: 27px;
+    color: #3D6184;
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    flex: 2;
+
+}
+
+.header-content-started button {
+    font-family: var(--font-family);
+    min-height: 50px;
+    flex: 0.6;
+    border: 0;
+    outline: none;
+    border-radius: 0 6px 6px 0;
+    color: white;
+    padding: 0 1rem;
+    background-color: #FF4820;
+    font-size: 20px;
+    font-weight: 500;
+    box-sizing: border-box;
+
+    cursor: pointer;
+}
+
+.header-content-review {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    
+    margin-top: 1rem;
+}
+
+.header-content-review img{
+    width: 181.79px;
+    height: 38px;
+}
+.header-content-review p {
+    
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 38px;
+    font-weight: 500;
+    color:white;
+}
+
+.header-image {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-image img {
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.gradient-text {
+    background-image: linear-gradient(to right, #AE67FA, #F49867);
+    -webkit-background-clip: text;
+    /* For Safari */
+    background-clip: text;
+    color: transparent;
+    /* Hide the original text color */
+}
+
+@media screen and (max-width:1050px) {
+    .header {
+        flex-direction: column;
+        
+
+    }
+    .header-image{
+        margin-right:2.5rem
+    }
+    .header-content  {
+        margin-right: 3rem;
+    }
+}
+@media screen and (max-width:650px) {
+    .header{
+        padding:0 0 0 2rem;
+    }
+    .header-content h1{
+        font-size: 48px;
+        line-height: 60px;
+
+    }
+    .header-content p{
+        font-size: 16px;
+        line-height: 24x;
+
+    }
+    .header-content-review{
+        flex-direction: column;
+    }
+    .header-content-review img{
+        width: 60%;
+    }
+    .header-content-started button,
+    .header-content-started input{
+        font-size:16px;
+        line-height: 24px;
+    }
+}
+
+
+@media screen and (max-width:490px) {
+    .header h1{
+        font-size:36px;
+        line-height:48px
+    }
+    .header p{
+        font-size: 14px;
+        line-height: 24px;
+    }    
+    .header-content-started{
+        justify-content: flex-start;
+        position: relative;
+        right:4px;
+    }
+    .header-content-started input,
+    .header-content-started button {
+        
+        font-size:12px;
+        line-height:16px
+    }
+}
