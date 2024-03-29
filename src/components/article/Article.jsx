@@ -5,7 +5,7 @@ export default function Article({img,date,heading}){
     return(
         <div className="article">
             <div className="article-image">
-                <img src={img} />
+                <img src={img} alt=""/>
             </div>
             <div className="article-content">
                 <div className="article-content__upper">
